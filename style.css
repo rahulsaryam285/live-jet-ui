@@ -1,0 +1,267 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url(//db.onlinewebfonts.com/c/bd6213fa49bedc8cb050c63f14360efa?family=Circular+Air+Book);
+
+
+
+body{
+    width: 375px;
+    height: 812px; 
+} 
+
+
+hr{
+    margin: 20px 0 20px 0 ;
+    height: 1px;
+    background-color: rgb(238, 232, 232);
+    border: none;
+}
+
+.main{
+    margin: 0 20px 0 20px;
+}
+
+.post{
+    padding: 14px 0px 10px 0;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 8px -4px rgb(218, 213, 213);
+    position: fixed;
+    top: 0%; 
+    width: 100%;
+    background-color: white; 
+
+}
+
+.head-post{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    font-size: 21px;
+    margin-left: 20px;
+    align-content: center;
+}
+
+
+.main{
+    margin-top: 75px;
+}
+
+
+.man-img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.img-man{
+    width: 170px;
+    object-fit: cover;
+    height: 120px;
+    
+}
+
+.data{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 16px ;
+}
+
+
+.location-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.location{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #464646;
+}
+
+
+
+
+.loco-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #3897F0;
+    font-size: 17px;
+}
+
+
+.area{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+}
+
+
+.close{
+    display: flex;
+    color: #C4C4C4;
+    width: 14px;
+    height: 15px;
+    margin-left: 210px;
+
+}
+
+
+
+.category{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cate{
+    font-family: 'Circular Air Pro', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #464646;
+}
+
+
+.music{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Circular Air Pro', sans-serif;
+    color: #484848;
+}
+
+
+.btn{
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 9px 11px 9px 11px;
+    border-radius: 30px;
+    border: 1px solid rgb(233, 231, 231);
+    background-color: rgb(252, 249, 249);
+}
+
+
+.btn-music-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.change{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #3897F0;
+    font-size: 14px;
+}
+
+
+
+
+
+.next{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 155px;
+    gap: 10px;
+
+
+}
+
+
+.share{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+.share-to{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646;
+}
+
+
+.media{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+.fb-img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.insta-img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.twitter-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #D6D6D6;
+}
+
+
+.fb-name, .insta-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.twitter-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    color: #999999;
+}
+
+
+
+
+.check{
+    margin: 70px 0 70px  270px;
+}
+
+
+.circle{
+    width: 67px;
+    height: 67px;
+}
+
+
